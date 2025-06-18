@@ -48,11 +48,11 @@ MODEL_DIR = ROOT/'weights'
 DETECTION_MODEL = MODEL_DIR/'yolo11n.pt'
 
 #In case of your custom model
-#DETECTION_MODEL = MODEL_DIR/'custom_model_weight.pt'
+#DETECTION_MODEL = 'custom_model_weight.pt'
 
-SEGMENTATION_MODEL  = MODEL_DIR/'yolo11n-seg.pt'
+SEGMENTATION_MODEL  = 'yolo11n-seg.pt'
 
-POSE_ESTIMATION_MODEL = MODEL_DIR/'yolo11n-pose.pt'
+POSE_ESTIMATION_MODEL = 'yolo11n-pose.pt'
 
 #Page Layout
 st.set_page_config(
