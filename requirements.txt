@@ -1,0 +1,11 @@
+ultralytics
+streamlit
+
+#pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
+
+#streamlit run main.py
+
+#ngrok http 8501 --region=in 
+
+pip install streamlit
+python -m streamlit run app.py --server.port 8000 --server.address 0.0.0.0
